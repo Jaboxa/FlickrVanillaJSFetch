@@ -40,7 +40,7 @@ function search(){
 	  })
 	  .then(data => {
 	  	if(data===null){
-	  		console.log("nej den finns inte");
+	  		console.log("funkar inte");
 	  	}else{
 	    data.photos.photo.forEach(photoObj => {
 	    	console.log("efter response allt är bra");
